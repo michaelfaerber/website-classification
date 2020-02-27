@@ -40,6 +40,7 @@ We included the script we used for creation of different shaped training / valid
 Unfortunately they are not generic, so you will have to adapt them to your data.
 In our experiments we used the random sample as test-data, but here we will just make validationdata = testdata. You can change this if required and make other splits.
 As the qualityset will be hard to reproduce we took it from the script.
+!! We included the originals in the functions-folder, but recomend using th ones in the scripts-folder. !!! Can be cahnged in the config_SL.R
 
 These ar in the scripts:
 

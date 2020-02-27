@@ -12,8 +12,8 @@ source("scripts/function_load_and_split.R")
 source("scripts/function_prepare_dtm.R")
 
 #Scripts fuer die Durchfuehrung:
-source("functions/function_prepare_dtm.R")
-source("functions/function_load_and_split.R")
+# source("functions/function_prepare_dtm.R")
+# source("functions/function_load_and_split.R")
 source("functions/fn_execution_coordinator.R")
 # source("functions/fn_calc_metrics.R")
 #source("functions/fn_Evaluationplots.R")
