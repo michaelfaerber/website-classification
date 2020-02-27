@@ -3,9 +3,11 @@ source('UL_config.R')
 
 #####  Load preselecte sample
 sample_clust <- readRDS("data/Clustering/mysample_PNC_for_Clustering.RDS")
+sample_clust <- readRDS("data/Train_PNC_full_20191008.rds")
+sample_clustF <- sample_clust %>% filter(handchecked == 1)
 
 #Create dtm (Train & Test are the same here):
-cl_TrainVal <- bs$text2dtmwPrep(sample_clust, sample_clust, TermCountMin = 30, docProportionMax = 0.5, 
+cl_TrainVal <- bs$text2dtmwPrep(sample_clustF, sample_clustF, TermCountMin = 30, docProportionMax = 0.5, 
                                 docProportionMin=0.02, nGram = 1, dotestset = F, vocabTermMax = 500 )
 
 ########################

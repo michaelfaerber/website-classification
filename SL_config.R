@@ -8,6 +8,8 @@ source("scripts/generate_stopwords.R")
 source("scripts/t2v_data_preparation.R")
 source("scripts/visualize_cfm.R")
 source("scripts/svm_1vsRest_Num.R")
+source("scripts/function_load_and_split.R")
+source("scripts/function_prepare_dtm.R")
 
 #Scripts fuer die Durchfuehrung:
 source("functions/function_prepare_dtm.R")
