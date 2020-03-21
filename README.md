@@ -51,6 +51,42 @@ After loading the training data, you decide, which models you want to execute / 
 The results are saved to disk for later analysis. They contain the evaluation, confusion-matrices etc. 
   
   
-  
+## Attachment 1: Results
+In this section we provide a confusion matrix of our models mentioned in table 6.
+
+Model: MP1^T_D (Multilayer-Perceptron 1):
+
+<img src="https://raw.githubusercontent.com/michaelfaerber/website-classification/master/data/mlp_1_real_tfidf.png" width="350">
+
+
+Model: SVR^T_D (Support-Vector-Machine 1vsRest):
+
+<img src="https://raw.githubusercontent.com/michaelfaerber/website-classification/master/data/svm_1vr_real_tfidf.png" width="350">
+
+
+Model: SVO^T_D (Support-Vector-Machine 1vs1):
+
+<img src="https://raw.githubusercontent.com/michaelfaerber/website-classification/master/data/svm_1v1_real_tfidf.png" width="350">
+
+
+Model: RF^R_Q (Random forest):
+
+<img src="https://raw.githubusercontent.com/michaelfaerber/website-classification/master/data/randomForest_qual_tiRed.png" width="350">
+
+
+Model: GB^R_Q (Gradient boosting):
+
+<img src="https://raw.githubusercontent.com/michaelfaerber/website-classification/master/data/xgboost_qual_tiRed.png" width="350">
+
+
+Model: CN1^25k_D (Convolutional neural network 1):
+
+<img src="https://raw.githubusercontent.com/michaelfaerber/website-classification/master/data/cnn_1_RealDistributed_Data_thr_0_max_25000.png" width="350">
+
+
+Model: NB^R_B (Naive Bayes):
+
+<img src="https://raw.githubusercontent.com/michaelfaerber/website-classification/master/data/NaiveBayes_bal_tiRed.png" width="350">
+
   
   
