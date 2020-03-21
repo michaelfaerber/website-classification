@@ -1,4 +1,12 @@
-# website-classification
+# Who's Behind That Website? Classifying Websites by the Degree of Commercial Intent
+
+**Abstract.** Web hosting companies strive to provide customised customer services and want to know the commercial intent of a website. Whether a website is run by an individual person, a company, a non-profit organisation, or a public institution constitutes a great challenge in website classification as website content might be sparse. In our [paper](#reference), we present a novel approach for determining the commercial intent of websites by using both supervised and unsupervised machine learning algorithms. Based on a large real-world data set, we evaluate our model with respect to its effectiveness and efficiency and observe the best performance with a multilayer perceptron.
+
+*In this repository, we provide
+1. the source code for all our implemented approaches to classify websites according to the degree of commercial intent, and
+2. the data set consisting of domains whose websites were used for website classification.*
+
+**Keywords.** *document classification, web, text mining, machine learning*
 
 The code comprises three parts:
 1. Startup
@@ -89,4 +97,11 @@ Model: NB^R_B (Naive Bayes):
 <img src="https://raw.githubusercontent.com/michaelfaerber/website-classification/master/data/NaiveBayes_bal_tiRed.png" width="350">
 
   
-  
+## Contact 
+In case of questions or comments, feel free to reach out to us: michael.faerber@kit.edu
+
+## Reference
+Further information about our approaches to website classification is given in the following publication. Please use this publication also for citing our approaches and data set:
+```
+Michael Färber, Benjamin Scheer, Frederic Bartscherer: "Who's Behind That Website? Classifying Websites by the Degree of Commercial Intent", Proceedings of the 20th International Conference on Web Engineering (ICWE’20), Helsinki, Finnland, 2020.
+```
