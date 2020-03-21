@@ -2,12 +2,13 @@
 
 **Abstract.** Web hosting companies strive to provide customised customer services and want to know the commercial intent of a website. Whether a website is run by an individual person, a company, a non-profit organisation, or a public institution constitutes a great challenge in website classification as website content might be sparse. In our [paper](#reference), we present a novel approach for determining the commercial intent of websites by using both supervised and unsupervised machine learning algorithms. Based on a large real-world data set, we evaluate our model with respect to its effectiveness and efficiency and observe the best performance with a multilayer perceptron.
 
+**Keywords.** *document classification, web, text mining, machine learning*
+
 In this repository, we provide
 1. the source code for all our implemented approaches to classify websites according to the degree of commercial intent, and
 2. the data set consisting of domains whose websites were used for website classification.
 
-**Keywords.** *document classification, web, text mining, machine learning*
-
+------ 
 
 The code comprises three parts:
 1. Startup
