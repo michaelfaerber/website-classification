@@ -103,6 +103,6 @@ Model: NB^R_B (Naive Bayes):
 In case of questions or comments, feel free to reach out to us: michael.faerber@kit.edu
 
 ## Reference
-Further information about our approaches to website classification is given in the following publication. Please use this publication also for citing our approaches and data set:
+Further information about our approaches to website classification is given in our [publication](https://www.aifb.kit.edu/images/2/24/Website-Classification_ICWE2020.pdf). Please use this publication for citing our approaches and data set. The DBLP-entry is available [here](https://dblp.org/rec/bibtex/conf/icwe/0001SB20).
 
-*Michael Färber, Benjamin Scheer, Frederic Bartscherer: "Who's Behind That Website? Classifying Websites by the Degree of Commercial Intent", Proceedings of the 20th International Conference on Web Engineering (ICWE’20), Helsinki, Finnland, 2020.*
+*[Michael Färber, Benjamin Scheer, Frederic Bartscherer: "Who's Behind That Website? Classifying Websites by the Degree of Commercial Intent", Proceedings of the 20th International Conference on Web Engineering (ICWE’20), Helsinki, Finnland, 2020.](https://www.aifb.kit.edu/images/2/24/Website-Classification_ICWE2020.pdf)*
